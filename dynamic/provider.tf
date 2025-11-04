@@ -7,7 +7,7 @@ terraform {
   }
     backend "s3" {
     bucket = "terraform-86-daws"
-    key    = "local-demo"
+    key    = "dynamic-block-demo"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
